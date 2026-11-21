@@ -4,7 +4,7 @@ function dailyLog232() {
   const newUsers = 172;
   const verifiedUsers = 160;
 
-  const conversionRate = (signups / visitors) * 10;
+  const conversionRate = (signups / visitors) * 100;
   const verificationRate = (verifiedUsers / signups) * 100;
 
   console.log("Daily Sign-up Report");
